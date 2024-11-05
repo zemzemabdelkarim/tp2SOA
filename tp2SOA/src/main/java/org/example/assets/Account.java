@@ -51,7 +51,7 @@ public class Account {
     @Override
     public String toString() {
         String result;
-        result = "\tAccount [code=" + code + ", proprietary=" + proprietary + ", solde=" + solde + ", creationDate=" + creationDate + "]";
+        result = "\tAccount [code=" + code + ", proprietary=" + proprietary+ ", solde=" + solde+ ", creationDate=" + creationDate + "]";
         return result;
     }
 }
